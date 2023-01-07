@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;    
+    border: 0;
+    scroll-behavior: smooth;
+    transition: all .5s ease
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}
