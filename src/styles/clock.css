@@ -32,7 +32,6 @@
 #wake-up-text{
     color: white;
     font-family: 'GT Eesti Pro Display';
-    /* font-style: italic; */
     padding-left: .5rem;
     opacity: .5
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Clock = () => {
     let [time, setTime] = useState(()=>{new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})})
@@ -46,8 +46,16 @@ const Clock = () => {
     return [first, second, third, fourth, fifth, sixth]
     }
     //calling altHours returns an array. We're gonna have to map through the array to make our code shorter.
-    // altHours()
-    // console.log(altHours())
+
+
+    // useEffect autoClick to add classes to recommended buttons on load
+    const recommended = document.getElementsByClassName('recommended')
+    const [_, setRecommended] = useState([])
+    useEffect(()=>{
+      setRecommended(()=>{
+        Array.from(recommended).forEach(el=> el.click())
+      })
+    }, [])
   return (
     <section id='main' className="">
       <h1 id='current-time' className="">{time}<span id="now">  now.</span> </h1>
