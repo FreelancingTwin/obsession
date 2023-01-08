@@ -1,10 +1,11 @@
 @import url('https://db.onlinewebfonts.com/c/3dad38b96d1a28deaba765fa3a16697f?family=GT+Eesti+Pro+Display');
 
 #navbar{
-    height: 5rem;
+    height: fit-content;
     color: white;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     padding: 2rem 2.5rem;
     font-family: 'GT Eesti Pro Display';
     font-size: 1.3rem;
@@ -12,14 +13,11 @@
 
 #title{
     opacity: .5;
+    margin-right: .5rem;
 }
 
 #calc{
     font-size: 1rem;
+    opacity: .5;
 }
-#hamburger{
-    font-size: 200%;
-    font-weight: 100;
-    color: white;
-    display:none;
-}
+

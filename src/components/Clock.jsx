@@ -72,7 +72,7 @@ const Clock = () => {
               </section>
               <div className="recommended" onClick={
                 (e)=>{
-                  if(e.target.parentNode.id < 3){
+                  if(e.target.parentNode.id < 2){
                     e.target.className = "recommended-nap"
                     e.target.innerText = "nap"
                   } else if( e.target.parentNode.id < 4){

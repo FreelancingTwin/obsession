@@ -4,13 +4,13 @@
     color: white;
     min-height:30vh;
     width:100vw;
-    height: 80vh;
-    padding: 1rem 1rem 0 1rem;
+    height: fit-content;
+    padding: 0rem 1rem 0 1rem;
 }
 
 #current-time{
     color: white;
-    font-family: 'GT Eesti Pro Display';
+    font-family: 'GT Eesti Pro Display', "Sans Serif";
     font-size: 2.5rem;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
@@ -31,7 +31,7 @@
 
 #wake-up-text{
     color: white;
-    font-family: 'GT Eesti Pro Display';
+    font-family: 'GT Eesti Pro Display', 'Sans Serif';
     padding-left: .5rem;
     opacity: .5
 }
@@ -48,7 +48,7 @@
 
 .rows{
     color: white;
-    font-family: 'GT Eesti Pro Display';
+    font-family: 'GT Eesti Pro Display', "Sans Serif";
     margin: 0rem 0;
     border-radius: .5rem;
     padding: .5rem;
@@ -63,6 +63,7 @@
     min-width: 8.5rem;
     color: white;
      font-size: 2rem;
+     font-family: 'GT Eesti Pro Display', "Sans Serif";
 } 
 
 .recommended{
@@ -91,36 +92,8 @@
     border-radius: .25rem
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-}
-
-.link{
-    color: white;
-    margin-left: 2.5rem;
-    opacity: .5;
-    font-family: 'GT Eesti Pro Display';
-    min-width: 8.5rem;
-}
-
-.link:hover{
-    opacity: 1;
-}
-
-.surprise-recommended{
-    font-family: 'GT Eesti Pro Display';
-    opacity: 0;
-    background: blue;
-    color: white;
-    font-size: .7rem;
-    padding: .25rem .5rem;
-    margin-left: .5rem;
-    border-radius: .25rem;
-    transition: inherit fade-in;
-}
-
-.link:hover ~ .surprise-recommended{
-    opacity: 1;
-    transition-delay: 1s;
+@media(orientation:landscape){
+    #main{
+        height: fit-content;
+    }
 }
