@@ -1,4 +1,8 @@
-@import url('https://db.onlinewebfonts.com/c/3dad38b96d1a28deaba765fa3a16697f?family=GT+Eesti+Pro+Display');
+/* @import url('https://db.onlinewebfonts.com/c/3dad38b96d1a28deaba765fa3a16697f?family=GT+Eesti+Pro+Display'); */
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+  src: local('GT Eesti Pro Display'), url(./fonts/GT-Eesti-Pro-Display-Regular.ttf) format('truetype');}
 
 *{
     margin: 0;
@@ -8,7 +12,7 @@
     border: 0;
     scroll-behavior: smooth;
     transition: all .5s ease;
-    font-family: 'GT Eesti Pro Display', "Sans Serif";
+    font-family: 'GT Eesti Pro Display', Sans-Serif;
 }
 
 body{
