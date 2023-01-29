@@ -17,7 +17,7 @@ A habit-building app with the world’s first dynamic alarm. The app’s algorit
     <li>NPM</li>
 </ul>
 
-##Developer's commentary
+## Developer's commentary
 
 **Folks from 100Devs, Definitely read this!**
 
